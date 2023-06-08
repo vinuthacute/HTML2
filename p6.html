@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-5</title>
+    <style>
+        dialog{
+            background-color:blueviolet;
+            color: blue;
+            padding: 20px;
+            border: 2px solid #000;
+            margin: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h3>Details</h3>
+        <p>This tag is used to specify the additional details on the web page that the user can view or hide on demand.</p>
+    </center>
+    <hr>
+
+    <center>
+        <h3>This is SUMMARY TAG</h3>
+        <p>The <b>HTML SUMMARY</b> tag is used with <b>DETAILS</b> tag. It is used as a summary, caption or legend for the content
+        of a details elements.</p>
+    </center>
+    <hr>
+
+    <details>
+        <summary>HTML</summary>
+        <h1>HTML</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi laborum dicta, laboriosam accusantium temporibus eos! 
+        Doloribus animi iure voluptate itaque nisi exercitationem fugiat laudantium incidunt amet, nesciunt at sunt voluptates.</p>
+    </details>
+    <details>
+        <<summary>CSS</summary>
+        <h1>CSS</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio ut dolorem quae asperiores nihil quod, quo vero
+         cum et perspiciatis ducimus, tempore quisquam recusandae iusto, eveniet reprehenderit velit nesciunt ad?</p>
+    </details>
+    <details>
+        <summary>JS</summary>
+        <h1>JS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, recusandae nobis! Accusamus tempora obcaecati
+         reprehenderit aperiam vero neque iusto! Porro quaerat earum molestiae nulla placeat accusantium quia, beatae qui amet.</p>
+    </details>
+
+    <center>
+        <h3>TIME TAG..!</h3>
+        <p> <b>HTML time</b> tag is used to define date and time. It displays time value in 24 hour clock or a precise date in a 
+        Gregorian calendra</p>
+    </center>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe voluptate at vero quos modi dicta
+     recusandae enim nisi! Animi saepe placeat aliquid explicabo qui praesentium odio sunt error ratione aspernatur!</p>
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ducimus quam perferendis corrupti voluptatibus dicta
+     impedit debitis error qui quasi fugiat, cum molestias! Officia, recusandae expedita obcaecati perferendis laboriosam rem.
+
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In omnis numquam maiores nisi tenetur adipisci esse ad atque! 
+     Dignissimos architecto ex impedit eaque, tempore asperiores! Vel laboriosam veritatis deserunt commodi!
+     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ratione temporibus possimus, ipsa dolore doloribus
+     voluptates vel dolorem facere tempora, consequuntur accusamus cumque adipisci ut iste explicabo similique sequi minima. </p>
+
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, aspernatur unde! Iure laudantium rerum animi totam, nobis
+     incidunt suscipit quo sed error similique velit enim quia numquam eos voluptates sunt.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, sequi a dolorum, culpa fuga veritatis quis repudiandae,
+      quaerat itaque esse consequuntur! Ipsam assumenda, incidunt velit pariatur cum necessitatibus culpa. Nostrum?</p>
+
+    <hr>
+
+    <center>
+        <h3>This is a DIALOG TAG</h3>
+        <p><b>(This tag to create a new popup diaglog on a web page.)</b></p>
+    </center>
+    <hr>
+    
+
+    <dialog id="dd">
+        <button type="button" id="btn2">&times;</button>
+        <h1>FULLSTACK</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime provident est fuga debitis nemo a laborum eaque mollitia? 
+            Amet cumque ipsum nostrum qui reiciendis molestiae, velit sed. Temporibus, dignissimos veritatis. </p>
+    </dialog>
+    
+    <button id="btn1">Open Dialog</button>
+
+    <script>
+        document.getElementById("btn1").onclick = function(){
+            document.getElementById("dd").show();
+        };
+        document.getElementById("btn2").onclick = function(){
+            document.getElementById("dd").close();
+        };
+    </script>
+</body>
+</html>
